@@ -15,7 +15,8 @@
 <form action="script.php" method="post">
     <p>Nome: <input type="text" name="nome" /></p>
     <p>Idade: <input type="text" name="idade" /></p>
-    <p><input type="submit" /></p>    
+    <p><input type="submit" value="Enviar Dados"/></p>    
+</form>
 </body>
 
 </html>
