@@ -1,39 +1,37 @@
 <?php
+$nome = $_POST['nome'];
+$idade = $_POST['idade'];
 
-$categorias = [];
+$catetorias  = [];
 $categorias[] = 'infantil';
 $categorias[] = 'adolescente';
 $categorias[] = 'adulto';
-$categorias[] = 'idoso';
 
-//print_r($categorias);
+$nome = $_POST['nome'];
+$idade = $_POST['idade'];
 
-$nome = $_POST[];
-$idade = 25;
 
-//var_dump($nome);
-//var_dump($idade);
-
+print_r($categorias);
 if($idade >= 6 && $idade <= 12)
 {
-    for ($i=0; $i <= count($categorias) ; $i++)
+    for ($i = 0; $i <= count($categorias); $i++)
      { 
         if($categorias[$i] == 'infantil')
-        echo "O nadador" .$nome. " compete na categoria " .$categorias[i];
+        echo "<h1>O nadador " .$nome. " compete na categoria " .$categorias[$i]. "</h1>";
     }
 }
 else if($idade >= 13 && $idade <= 18)
 {
-    for ($i=0; $i <= count($categorias) ; $i++) 
+    for ($i = 0; $i <= count($categorias); $i++)
     { 
         if($categorias[$i] == 'adolescente')
-        echo "O nadador" .$nome. " compete na categoria " .$categorias[i];
+        echo "<h1>O nadador " .$nome. " compete na categoria " .$categorias[$i]. "</h1>";
     }
 }
 else {
-    for ($i=0; $i <= count($categorias) ; $i++) 
+    for ($i = 0; $i <= count($categorias); $i++)
     { 
         if($categorias[$i] == 'adulto')
-        echo "O nadador" .$nome. " compete na categoria " .$categorias[i];
+        echo "<h1>O nadador " .$nome. " compete na categoria " .$categorias[$i]. "</h1>";
     }
 }
