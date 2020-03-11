@@ -17,3 +17,5 @@
     <p>Idade: <input type="text" name="idade" /></p>
     <p><input type="submit" /></p>    
 </body>
+
+</html>
